@@ -71,7 +71,7 @@ Install the following software from the extracted `osTicket-Installation-Files`:
 ### Step 4: Configure IIS
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Configure IIS"/>
+<img src="https://s6.ezgif.com/tmp/ezgif-6-f03c10edf7.gif" height="80%" width="80%" alt="Configure IIS"/>
 </p>
 <p>
 Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP Manager. Stop and restart the IIS server.
