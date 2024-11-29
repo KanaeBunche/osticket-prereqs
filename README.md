@@ -81,7 +81,7 @@ Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP
 ### Step 5: Install osTicket
 
 <p>
-<img src="https://s6.ezgif.com/tmp/ezgif-6-c8f2b3f762.gif" height="80%" width="80%" alt="Install osTicket"/>
+<img src="https://s6.ezgif.com/tmp/ezgif-6-9b21e2f6cd.gif" height="80%" width="80%" alt="Install osTicket"/>
 </p>
 <p>
 1. Copy the `upload` folder from `osTicket-v1.15.8.zip` to `C:\inetpub\wwwroot` and rename it to `osTicket`.
