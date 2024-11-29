@@ -55,7 +55,7 @@ Open **Control Panel** > **Programs** > **Turn Windows features on or off**. Ena
 ### Step 3: Install Required Software
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Install Prerequisites"/>
+<img src="https://s6.ezgif.com/tmp/ezgif-6-c8f2b3f762.gif" height="80%" width="80%" alt="Install Prerequisites"/>
 </p>
 <p>
 Install the following software from the extracted `osTicket-Installation-Files`:
