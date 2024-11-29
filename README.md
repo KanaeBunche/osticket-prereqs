@@ -113,16 +113,7 @@ Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP
 </p>
 <br />
 
-### Step 8: Post-Installation Cleanup
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Cleanup"/>
-</p>
-<p>
-1. Delete the `setup` directory (`C:\inetpub\wwwroot\osTicket\setup`).
-2. Set the `ost-config.php` file to **Read-Only**.
-</p>
-<br />
 
 <h2>Accessing osTicket</h2>
 
