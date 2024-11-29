@@ -45,7 +45,7 @@ Log into your Azure VM using Remote Desktop. Download the `osTicket-Installation
 ### Step 2: Enable IIS with CGI
 
 <p>
-<img src="https://s1.ezgif.com/tmp/ezgif-1-ba50afc7c2.gif" height="80%" width="80%" alt="Enable IIS with CGI"/>
+<img src="https://s6.ezgif.com/tmp/ezgif-6-f411406fdc.gif" height="80%" width="80%" alt="Enable IIS with CGI"/>
 </p>
 <p>
 Open **Control Panel** > **Programs** > **Turn Windows features on or off**. Enable Internet Information Services (IIS), including World Wide Web Services > Application Development Features > CGI.
