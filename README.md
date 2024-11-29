@@ -93,7 +93,7 @@ Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP
 ### Step 6: Finalize osTicket Configuration
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Finalize Configuration"/>
+<img src="https://s6.ezgif.com/tmp/ezgif-6-cee50efa58.gif" height="80%" width="80%" alt="Finalize Configuration"/>
 </p>
 <p>
 1. Rename `ost-sampleconfig.php` to `ost-config.php` and set its permissions to **Full Control** for `Everyone`.
