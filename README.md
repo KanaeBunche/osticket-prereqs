@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ### Step 1: Prepare the Virtual Machine
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Azure VM Configuration"/>
+<img src="https://www.freeconvert.com/convert/video-to-gif" height="80%" width="80%" alt="Azure VM Configuration"/>
 </p>
 <p>
 Log into your Azure VM using Remote Desktop. Download the `osTicket-Installation-Files.zip` onto the desktop and extract the files.
