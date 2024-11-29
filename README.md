@@ -104,7 +104,7 @@ Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP
 ### Step 7: Configure Database
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Configure Database"/>
+<img src="https://s1.ezgif.com/tmp/ezgif-1-b7328bcb14.gif" height="80%" width="80%" alt="Configure Database"/>
 </p>
 <p>
 1. Use HeidiSQL to create a new database named `osTicket`.
