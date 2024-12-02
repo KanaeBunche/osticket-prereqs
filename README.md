@@ -1,130 +1,95 @@
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
-
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
----
+<p>This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.</p>
 
 <h2>Environments and Technologies Used</h2>
+<ul>
+  <li>Microsoft Azure (Virtual Machines/Compute)</li>
+  <li>Remote Desktop</li>
+  <li>Internet Information Services (IIS)</li>
+</ul>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10 (21H2)
+<h2>Operating Systems Used</h2>
+<ul>
+  <li>Windows 10 (21H2)</li>
+</ul>
 
 <h2>List of Prerequisites</h2>
-
-- Azure Virtual Machine with Windows 10
-- PHP Manager for IIS
-- Rewrite Module
-- PHP 7.3.8
-- Visual C++ Redistributable
-- MySQL 5.5.62
-- osTicket v1.15.8
-- HeidiSQL
+<ul>
+  <li>Azure Virtual Machine with Windows 10</li>
+  <li>PHP Manager for IIS</li>
+  <li>Rewrite Module</li>
+  <li>PHP 7.3.8</li>
+  <li>Visual C++ Redistributable</li>
+  <li>MySQL 5.5.62</li>
+  <li>osTicket v1.15.8</li>
+  <li>HeidiSQL</li>
+</ul>
 
 <h2>Installation Steps</h2>
 
 ### Step 1: Prepare the Virtual Machine
-<p align="center">
-<img src="https://via.placeholder.com/436x283.png" alt="Prepare the Virtual Machine" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=joWKatENCsM" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/joWKatENCsM) to watch a video demo.*  
-Log into your Azure VM using Remote Desktop. Download the `osTicket-Installation-Files.zip` onto the desktop and extract the files.
-
----
+<a href="https://www.youtube.com/watch?v=joWKatENCsM" target="_blank">
+    <img src="https://img.youtube.com/vi/joWKatENCsM/hqdefault.jpg" alt="Prepare the Virtual Machine Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 2: Enable IIS with CGI
-<p align="center">
-<img src="https://via.placeholder.com/436x245.png" alt="Enable IIS with CGI" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=QGpSbkNHU64" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/QGpSbkNHU64) to watch a video demo.*  
-Open **Control Panel** > **Programs** > **Turn Windows features on or off**. Enable Internet Information Services (IIS), including World Wide Web Services > Application Development Features > CGI.
-
----
+<a href="https://www.youtube.com/watch?v=QGpSbkNHU64" target="_blank">
+    <img src="https://img.youtube.com/vi/QGpSbkNHU64/hqdefault.jpg" alt="Enable IIS with CGI Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 3: Install Required Software
-<p align="center">
-<img src="https://via.placeholder.com/436x272.png" alt="Install Required Software" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=XW3_hLmNqw4" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/XW3_hLmNqw4) to watch a video demo.*  
-Install the following software from the extracted `osTicket-Installation-Files`:
-
-1. PHP Manager for IIS
-2. Rewrite Module
-3. PHP 7.3.8 (unzip into `C:\PHP`)
-4. Visual C++ Redistributable
-5. MySQL 5.5.62 (set root password to `root`)
-
----
+<a href="https://www.youtube.com/watch?v=XW3_hLmNqw4" target="_blank">
+    <img src="https://img.youtube.com/vi/XW3_hLmNqw4/hqdefault.jpg" alt="Install Required Software Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 4: Configure IIS
-<p align="center">
-<img src="https://via.placeholder.com/436x245.png" alt="Configure IIS" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=8Af_7j-RluA" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/8Af_7j-RluA) to watch a video demo.*  
-Open IIS as Administrator. Register PHP by selecting `C:\PHP\php-cgi.exe` in PHP Manager. Stop and restart the IIS server.
-
----
+<a href="https://www.youtube.com/watch?v=8Af_7j-RluA" target="_blank">
+    <img src="https://img.youtube.com/vi/8Af_7j-RluA/hqdefault.jpg" alt="Configure IIS Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 5: Install osTicket
-<p align="center">
-<img src="https://via.placeholder.com/436x245.png" alt="Install osTicket" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=YOsfQ_rJHeg" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/YOsfQ_rJHeg) to watch a video demo.*  
-
-1. Copy the `upload` folder from `osTicket-v1.15.8.zip` to `C:\inetpub\wwwroot` and rename it to `osTicket`.
-2. Browse to `http://localhost/osTicket` in your browser.
-3. Enable PHP extensions: `php_imap.dll`, `php_intl.dll`, `php_opcache.dll`.
-
----
+<a href="https://www.youtube.com/watch?v=YOsfQ_rJHeg" target="_blank">
+    <img src="https://img.youtube.com/vi/YOsfQ_rJHeg/hqdefault.jpg" alt="Install osTicket Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 6: Finalize osTicket Configuration
-<p align="center">
-<img src="https://via.placeholder.com/436x245.png" alt="Finalize osTicket Configuration" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=7MyEU8pb7wk" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/7MyEU8pb7wk) to watch a video demo.*  
-
-1. Rename `ost-sampleconfig.php` to `ost-config.php` and set its permissions to **Full Control** for `Everyone`.
-2. Complete the setup in the browser, providing the helpdesk name and default email.
-
----
+<a href="https://www.youtube.com/watch?v=7MyEU8pb7wk" target="_blank">
+    <img src="https://img.youtube.com/vi/7MyEU8pb7wk/hqdefault.jpg" alt="Finalize osTicket Configuration Thumbnail" style="width:436px; height:245px;">
+</a>
 
 ### Step 7: Configure Database
-<p align="center">
-<img src="https://via.placeholder.com/436x245.png" alt="Configure Database" />
+<p>
+Click image of <a href="https://www.youtube.com/watch?v=17qpEZ-EeKY" target="_blank">here</a> to watch the video.
 </p>
-*Click [here](https://www.youtube.com/embed/17qpEZ-EeKY) to watch a video demo.*  
-
-1. Use HeidiSQL to create a new database named `osTicket`.
-2. Enter database details during the osTicket setup: Database Name `osTicket`, Username `root`, Password `root`.
-3. Click **Install Now!**
-
----
+<a href="https://www.youtube.com/watch?v=17qpEZ-EeKY" target="_blank">
+    <img src="https://img.youtube.com/vi/17qpEZ-EeKY/hqdefault.jpg" alt="Configure Database Thumbnail" style="width:436px; height:245px;">
+</a>
 
 <h2>Accessing osTicket</h2>
-
-- Admin Panel: `http://localhost/osTicket/scp/login.php` 🛠️  
-- End User Portal: `http://localhost/osTicket/` 🌟  
-
----
-
-<h2>Screenshots</h2>
-
-Steps Overview:
-
-1. Azure VM creation.
-2. IIS configuration window.
-3. PHP extension enablement.
-4. Database setup in HeidiSQL.
-5. osTicket final installation screen.
-
----
+<ul>
+  <li>Admin Panel: <a href="http://localhost/osTicket/scp/login.php" target="_blank">http://localhost/osTicket/scp/login.php</a> 🛠️</li>
+  <li>End User Portal: <a href="http://localhost/osTicket/" target="_blank">http://localhost/osTicket/</a> 🌟</li>
+</ul>
 
 <h2>Conclusion 🎉</h2>
+<p>
 Congratulations! You have successfully installed and configured osTicket. With this powerful help desk tool, you can efficiently manage support tickets and improve customer service workflows. Happy troubleshooting! 🚀
+</p>
